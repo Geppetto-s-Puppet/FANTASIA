@@ -15,8 +15,7 @@
 |:--:|---|---|
 | A-1 | ニコがケミィとの対峙で「炬庭」と呼ばれる。旧称か、ケミィだけが使う呼称か | [characters-keyshop.md](../ledger/characters-keyshop.md#ニコ) |
 | A-2 | パウリの「最初の非能力者従業員」という表現。リョウト・ボンも非能力者であり、「構成員は全員能力者」という基本設定とも衝突する | [characters-secret-service.md](../ledger/characters-secret-service.md#パウリ) |
-| A-3 | **「グレラン団」と「スティグマタ」は同一組織か。** 第20話『マインスイーパー』の脚本内で、カタストロフィが率いる集団が両方の名で呼ばれている。またキャンディーロードの永世中立の説明でも「グレラン団」が独立した勢力として挙がる | [places.md](../ledger/places.md#キャンディーロード) / [organizations.md](../ledger/organizations.md#スティグマタ) |
-| A-4 | **ボミィィィ(キーショップ・醜い三兄弟の長男)と「ボミー」(スティグマタの爆破系能力者)は別人か。** 現状は別人として記録している | [characters-independent.md](../ledger/characters-independent.md#スティグマタの正装) |
+| A-3 | **ボミィィィ(キーショップ・醜い三兄弟の長男)と「ボミー」(スティグマタの爆破系能力者)は別人か。** 現状は別人として記録している | [characters-independent.md](../ledger/characters-independent.md#スティグマタの正装) |
 
 ---
 
