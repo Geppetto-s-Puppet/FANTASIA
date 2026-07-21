@@ -62,7 +62,7 @@
 - **ローズとヨジロの論争**(検出可能性の哲学)
 - **頻出単語問題 / 出来すぎたエンティティ問題**
 
-→ すべて [canon/powers.md](../canon/powers.md#5-未解決問題anomatrol)
+→ すべて [canon/powers.md](../canon/powers.md#6-未解決問題anomatrol)
 
 ---
 
