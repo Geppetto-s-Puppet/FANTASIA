@@ -16,7 +16,6 @@
 | A-1 | ニコがケミィとの対峙で「炬庭」と呼ばれる。旧称か、ケミィだけが使う呼称か | [characters-keyshop.md](../ledger/characters-keyshop.md#ニコ) |
 | A-2 | パウリの「最初の非能力者従業員」という表現。リョウト・ボンも非能力者であり、「構成員は全員能力者」という基本設定とも衝突する | [characters-secret-service.md](../ledger/characters-secret-service.md#パウリ) |
 | A-3 | **ボミィィィ(キーショップ・醜い三兄弟の長男)と「ボミー」(スティグマタの爆破系能力者)は別人か。** 現状は別人として記録している | [characters-independent.md](../ledger/characters-independent.md#スティグマタの正装) |
-| A-4 | **フロストの所属が2通りある。** キザシ封殺の場面では「**REAPERの狙撃手**」、スティグマタの正装の由来では「**範囲攻撃を持つスティグマタの能力者**」。同一人物なら移籍か兼任か、別人か | [characters-secret-service.md](../ledger/characters-secret-service.md#決定的な弱点歌い手は壊せる) / [characters-independent.md](../ledger/characters-independent.md#スティグマタの正装) |
 
 ---
 
