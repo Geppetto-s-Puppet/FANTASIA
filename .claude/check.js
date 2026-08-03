@@ -54,6 +54,25 @@ for (const f of files) read(f).split(/\r?\n/).forEach(l => {
 const dup = [...seen].filter(e => e[1].size > 1);
 ok('ファイル跨ぎの台詞重複 0', dup.length === 0, dup.map(e => e[0].slice(0, 30) + '(' + [...e[1]].join(',') + ')').join(' / '));
 
+// 2b. SSOT:同じ「地の文」が複数ファイルに存在しないか(台詞より起きやすい)
+// 持ち主を決めてリンクに差し替えること。閾値28字は、定型句の巻き添えを避ける下限。
+const pros = new Map();
+for (const f of files) {
+  if (f === 'CLAUDE.md') continue;
+  for (const line of read(f).split(/\r?\n/)) {
+    if (!line.trim() || line.startsWith('#') || line.startsWith('>')) continue;
+    for (const s of line.split('。')) {
+      const k = s.replace(/[\s*`\[\]()（）「」『』:：・\-—─,、.。!?！？|]/g, '');
+      if (k.length < 28) continue;
+      if (!pros.has(k)) pros.set(k, new Set());
+      pros.get(k).add(f);
+    }
+  }
+}
+const pdup = [...pros].filter(e => e[1].size > 1);
+ok('ファイル跨ぎの地の文重複 0', pdup.length === 0,
+  pdup.map(e => e[0].slice(0, 28) + '(' + [...e[1]].join(',') + ')').join(' / '));
+
 // 3. 装飾:太字が機能しているか(資料の本文1行あたり 0.30 以下)
 // 規約が例外と認めている「行頭のフィールドラベル」と「台詞内の強調」は数えない
 const heavy = [];
